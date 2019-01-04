@@ -1,0 +1,92 @@
+* {
+  font-family: roboto; }
+
+.abouts {
+  margin-top: 30px;
+  padding-bottom: 20px; }
+  .abouts hr {
+    clear: both;
+    border: 1px solid #3fae48;
+    width: 10%; }
+  .abouts .content div span {
+    float: left;
+    font-size: 20px;
+    font-weight: bold; }
+  .abouts .content div img {
+    float: left; }
+  .abouts .content hr {
+    margin-left: 0px; }
+  .abouts .content p {
+    text-align: justify; }
+  .abouts .icon {
+    margin-top: 30px; }
+
+.product {
+  background: #fff url("../image/bgbig.jpg") no-repeat;
+  background-size: cover; }
+  .product .textheader {
+    padding-top: 20px; }
+    .product .textheader img {
+      float: left;
+      margin-top: 10px; }
+    .product .textheader h3 {
+      float: left;
+      text-align: center;
+      display: block;
+      margin-left: 20px; }
+    .product .textheader hr {
+      clear: both;
+      width: 5%;
+      border: 1px solid #fff;
+      margin: 0px auto; }
+  .product .info {
+    padding-bottom: 20px; }
+    .product .info div img {
+      margin: 20px auto;
+      display: block; }
+    .product .info div div img {
+      margin-top: 20px; }
+
+.newsIndex .textheader {
+  margin-top: 40px; }
+  .newsIndex .textheader div span {
+    float: left;
+    font-size: 30px;
+    font-weight: bold; }
+  .newsIndex .textheader div img {
+    float: left;
+    display: block; }
+  .newsIndex .textheader hr {
+    clear: both;
+    border: 1px solid #3fae48;
+    width: 10%;
+    margin: 0px;
+    margin-bottom: 30px; }
+.newsIndex .box1 {
+  position: relative; }
+  .newsIndex .box1 div {
+    position: absolute;
+    bottom: 0px; }
+    .newsIndex .box1 div h3, .newsIndex .box1 div p {
+      margin-left: 20px;
+      display: block; }
+.newsIndex .box2 div {
+  margin-top: 20px; }
+.newsIndex h3, .newsIndex p {
+  width: 100%; }
+.newsIndex .imgbox {
+  position: relative; }
+  .newsIndex .imgbox div {
+    position: absolute;
+    bottom: 10px;
+    left: 10px; }
+    .newsIndex .imgbox div h4, .newsIndex .imgbox div p {
+      color: #fff; }
+.newsIndex .newsboxchild {
+  margin-top: 20px; }
+  .newsIndex .newsboxchild p {
+    font-size: 12px; }
+.newsIndex .textcontent {
+  text-align: justify; }
+
+/*# sourceMappingURL=indexcss1.css.map */

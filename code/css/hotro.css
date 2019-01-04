@@ -1,0 +1,181 @@
+* {
+  font-family: roboto; }
+
+body {
+  background-color: #fff; }
+
+.background, .hotrocontent .search button {
+  background: none;
+  border: none; }
+
+.menu .logo span {
+  float: left; }
+.menu .logo img {
+  float: left;
+  margin-top: 5px; }
+.menu .logo hr {
+  clear: both;
+  border: 1px solid #3fae48;
+  width: 20%; }
+
+.hotrocontent {
+  padding-bottom: 20px; }
+  .hotrocontent .search {
+    position: relative; }
+    .hotrocontent .search input, .hotrocontent .search .slibar div textarea, .slibar div .hotrocontent .search textarea {
+      width: 100%;
+      height: 30px; }
+    .hotrocontent .search button {
+      position: absolute;
+      top: -4px;
+      right: 0px; }
+  .hotrocontent .boxvarm {
+    margin-top: 20px;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .hotrocontent .boxvarm div div {
+      float: left;
+      width: 90%; }
+      .hotrocontent .boxvarm div div p {
+        width: 100%; }
+      .hotrocontent .boxvarm div div h3 {
+        margin-left: 20px; }
+    .hotrocontent .boxvarm div img, .hotrocontent .boxvarm div p {
+      float: left;
+      display: block; }
+    .hotrocontent .boxvarm div p {
+      width: 90%;
+      text-align: justify;
+      margin-left: 20px; }
+  .hotrocontent hr {
+    border: 1px solid #3fae48;
+    width: 90%; }
+  .hotrocontent button {
+    margin: 0px auto;
+    border-radius: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+    display: block; }
+
+.slibar .form {
+  padding-bottom: 10px;
+  background-image: url("../image/background.jpg");
+  background-size: cover; }
+  .slibar .form div h3 {
+    float: left;
+    margin-top: 20px;
+    margin-left: 15px; }
+  .slibar .form div img {
+    margin-top: 20px; }
+  .slibar .form p {
+    clear: both;
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px; }
+.slibar div input, .slibar div textarea {
+  width: 90%;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
+  border: none;
+  margin: 0px auto;
+  display: block; }
+.slibar div textarea {
+  height: 90px; }
+.slibar button {
+  height: 40px;
+  width: 90%;
+  background-color: #ffb403;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
+  border: none;
+  margin: 12px auto;
+  display: block; }
+.slibar .feedback {
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px  #888888;
+  height: 600px; }
+  .slibar .feedback h3 {
+    text-align: center; }
+  .slibar .feedback .boxchild {
+    margin: 0px auto;
+    display: block; }
+    .slibar .feedback .boxchild img {
+      float: left;
+      padding-right: 10px; }
+    .slibar .feedback .boxchild p {
+      float: left;
+      width: 80%;
+      display: block;
+      text-align: justify; }
+    .slibar .feedback .boxchild hr {
+      clear: both;
+      border: 1px solid #38a144; }
+  .slibar .feedback .textheader {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    .slibar .feedback .textheader span {
+      float: left;
+      font-size: 20px;
+      font-weight: bold; }
+    .slibar .feedback .textheader img {
+      float: left; }
+
+.map {
+  height: 700px;
+  width: 100%;
+  position: relative; }
+  .map .mapping {
+    position: absolute;
+    top: -120px;
+    left: 0px;
+    z-index: -10; }
+  .map .form {
+    padding-top: 20px;
+    background: #fff;
+    margin-top: 40px;
+    box-shadow: 2px 2px 5px #888888; }
+    .map .form div {
+      margin-left: 10px; }
+      .map .form div div {
+        margin-top: 15px; }
+      .map .form div .textinfo {
+        margin-top: 60px;
+        padding-bottom: 20px; }
+    .map .form input, .map .form .slibar div textarea, .slibar div .map .form textarea {
+      width: 90%;
+      height: 40px;
+      background-color: #f5f5f5;
+      border: none;
+      box-shadow: inset 2px 2px 3px #888888; }
+    .map .form button {
+      height: 40px;
+      width: 90%;
+      background-color: #3ba044;
+      border: none;
+      color: #fff; }
+
+.news span {
+  font-size: 20px;
+  font-weight: bold; }
+.news div .boxnews p {
+  text-align: justify; }
+.news button {
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #fff;
+  border-radius: 15px;
+  border: none;
+  margin: 40px auto;
+  display: block; }
+
+/*# sourceMappingURL=hotro.css.map */
